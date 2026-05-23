@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Account</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <div class="card">
+      <aside class="panel panel--brand" aria-label="Welcome">
+        <header class="brand-header">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-name">Company Name</span>
+        </header>
+
+        <div class="brand-content">
+          <p class="brand-greeting">Nice to see you again</p>
+          <h1 class="brand-title">Welcome Back</h1>
+          <span class="brand-divider" aria-hidden="true"></span>
+          <p class="brand-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </aside>
+
+      <section class="panel panel--form">
+        <header class="form-header">
+          <h2 class="form-title">Login Account</h2>
+          <p class="form-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.
+          </p>
+        </header>
+
+        <form class="login-form" action="#" method="post">
+          <label class="field">
+            <span class="visually-hidden">Email ID</span>
+            <input type="email" name="email" placeholder="Email ID" autocomplete="email" required />
+          </label>
+
+          <label class="field">
+            <span class="visually-hidden">Password</span>
+            <input type="password" name="password" placeholder="Password" autocomplete="current-password" required />
+          </label>
+
+          <div class="form-row">
+            <label class="checkbox">
+              <input type="checkbox" name="remember" checked />
+              <span class="checkbox-box" aria-hidden="true"></span>
+              <span class="checkbox-label">Keep me signed in</span>
+            </label>
+            <a class="form-link" href="#">Already a member?</a>
+          </div>
+
+          <button type="submit" class="btn-submit">Subscribe</button>
+        </form>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
